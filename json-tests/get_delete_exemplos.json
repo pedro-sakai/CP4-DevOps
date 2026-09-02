@@ -1,0 +1,6 @@
+{
+  "observacao": "GET e DELETE nao enviam corpo (body) no HTTP. Este arquivo documenta as URLs de teste usadas na entrega.",
+  "GET_todas": { "metodo": "GET", "url": "http://<ip-ou-fqdn-app>:8080/api/transacoes" },
+  "GET_por_id": { "metodo": "GET", "url": "http://<ip-ou-fqdn-app>:8080/api/transacoes/{id}" },
+  "DELETE_por_id": { "metodo": "DELETE", "url": "http://<ip-ou-fqdn-app>:8080/api/transacoes/{id}" }
+}
